@@ -1,36 +1,71 @@
-# Portfólio — Luiz Henrique Paulino
+# Orvysion Technology
 
-Site profissional desenvolvido para apresentar minha atuação em **Suporte e Infraestrutura**, **Desenvolvimento Web** e **Business Intelligence**.
+Site comercial da Orvysion, desenvolvido para apresentar serviços e receber pedidos de orçamento diretamente no WhatsApp.
 
-## Visualizar
+**Site:** https://srhenriquebr.github.io/Meu-Site/
 
-Após habilitar o GitHub Pages, o site estará disponível em:
+## Serviços
 
-**https://srhenriquebr.github.io/Meu-Site/**
+- Montagem de computadores.
+- Manutenção, limpeza e upgrades de PCs e notebooks.
+- Desenvolvimento de sites e lojas virtuais.
+- Sistemas sob medida e dashboards.
+- Venda de softwares e licenças, instalação e configuração.
+- Automações com IA, integrações e protótipos.
 
-## Recursos
+## Contato
 
-- Design moderno, responsivo e acessível
-- Modo claro e escuro com preferência salva
-- Menu adaptado para dispositivos móveis
-- Apresentação profissional animada
-- Seções de experiência, especialidades, tecnologias e projetos
-- Animações ativadas durante a navegação
-- SEO e metadados básicos
-- Publicação automática com GitHub Actions
+Todos os botões de orçamento usam **+55 (16) 99745-2366**.
 
-## Tecnologias
+O formulário prepara uma mensagem com nome, serviço e descrição e abre o WhatsApp. A pessoa confere e envia a mensagem por lá. Não há servidor de formulário, envio automático, armazenamento de dados ou integração paga.
 
-- HTML5 semântico
-- CSS3
-- JavaScript
-- Lucide Icons
-- GitHub Pages
+Para alterar o contato, atualize o número em:
+- `index.html`: links, telefone visível e dados estruturados.
+- `script.js`: constante `WHATSAPP_NUMBER`.
+- `projetos/*.html`: contatos das demonstrações.
 
-## Executar localmente
+## Projetos demonstrativos
 
-Clone o repositório e abra o arquivo `index.html` no navegador. Não é necessário instalar dependências.
+As marcas, os produtos, os preços e os registros das demonstrações são fictícios e estão identificados como exemplos. Não representam clientes atendidos.
 
----
+| Projeto | Demonstração |
+| --- | --- |
+| Lume Arquitetura | Site institucional com navegação entre seções. |
+| Áurea Store | Catálogo por categoria, sacola, quantidades, total e pedido simulado. |
+| Nexo Gestão | Pesquisa e filtro de pedidos, indicadores calculados, gráfico e exportação CSV. |
+| Orvysion Flow | Simulação de organização de uma solicitação. |
 
-Desenvolvido por [Luiz Henrique Paulino](https://github.com/SrHenriqueBR).
+A loja não faz cobranças, pedidos ou entregas reais. O painel não tem banco de dados ou autenticação. O Flow não chama modelos de IA: simula um fluxo local para ilustrar possibilidades de automação. A contratação das funcionalidades reais exige definição de escopo e integrações.
+
+## Estrutura
+
+- `index.html`, `style.css`, `script.js`: página comercial.
+- `assets/`: identidade visual, fotos fornecidas pelo proprietário, ilustrações e prévias.
+- `projetos/`: quatro demonstrações, estilos e interações.
+- `.github/workflows/pages.yml`: publicação automática no GitHub Pages.
+- `robots.txt` e `sitemap.xml`: descoberta da página principal.
+
+A imagem de apresentação da equipe foi fornecida pelo proprietário e tem composição gerada por IA. A foto das ferramentas também foi fornecida pelo proprietário. As cópias WebP preservam o conteúdo das imagens e reduzem o tamanho do download. As ilustrações e prévias dos projetos são SVGs locais.
+
+## Rodar localmente
+
+Não há dependências ou etapa de compilação. Use um servidor HTTP na raiz:
+
+```bash
+python3 -m http.server 8000
+```
+
+Abra http://localhost:8000. Um servidor HTTP é necessário para carregar corretamente o conjunto de ícones SVG.
+
+## Publicação
+
+A configuração existente do GitHub Actions publica o conteúdo da branch `main` no GitHub Pages automaticamente. O endereço permanece o mesmo.
+
+## Cuidados de manutenção
+
+- Use caminhos relativos para manter a compatibilidade com `/Meu-Site/`.
+- Não publique dados pessoais, chaves de API ou credenciais no repositório.
+- Mantenha os rótulos de demonstração ao trocar os exemplos.
+- Atualize fotos, escopo e condições comerciais conforme os serviços oferecidos.
+- A interface respeita a preferência por menos movimento e oferece navegação por teclado.
+
