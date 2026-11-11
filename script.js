@@ -1,6 +1,6 @@
 'use strict';
 
-const WHATSAPP_NUMBER = '5516997452366';
+const WHATSAPP_NUMBER = '5534992413197';
 const whatsappUrl = (message) => 'https://wa.me/' + WHATSAPP_NUMBER + '?text=' + encodeURIComponent(message);
 
 const menuToggle = document.querySelector('.menu-toggle');
