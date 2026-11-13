@@ -35,3 +35,11 @@
 @media(max-width:900px){.menu-toggle{display:block}.nav{gap:20px}.nav-menu{position:absolute;top:100%;left:0;right:0;background:#101a28;border-bottom:1px solid #33445b;padding:15px 20px 24px;display:none;flex-direction:column;align-items:stretch;gap:5px;box-shadow:0 15px 40px #0005}.nav-menu.is-open{display:flex}.nav-menu>a:not(.button){padding:13px 5px;font-size:15px;min-height:46px}.nav-menu .button{margin-top:7px;font-size:14px}.menu-toggle[aria-expanded="true"] span:first-child{transform:translateY(4px) rotate(45deg)}.menu-toggle[aria-expanded="true"] span:last-child{transform:translateY(-4px) rotate(-45deg)}.catalog-preview-grid{gap:15px}.catalog-preview-card>div{padding:18px}.catalog-preview-card h3{font-size:16px}}
 @media(max-width:680px){.catalog-preview-grid{grid-template-columns:1fr;gap:22px}.catalog-preview-card>div{padding:23px}.catalog-preview-card h3{font-size:22px}.catalog-preview-card p{font-size:12px}.catalog-preview-card>div>span{font-size:9px}.catalog-teaser-note{font-size:10px}}
 
+
+/* Redes sociais da Orvysion */
+.instagram-link{display:inline-flex;align-items:center;gap:10px;min-height:44px;padding:9px 13px;border:1px solid #41516b;border-radius:9px;color:#e3eaff;font-size:12px;line-height:1.4;transition:background .2s,border-color .2s}
+.instagram-link:hover{background:#1e2a40;border-color:#91b4f0}.instagram-link>svg{width:19px;height:19px;color:#a9c7ff}.instagram-link>svg:last-child{width:15px;height:15px}
+.contact-instagram{margin-top:20px;padding:13px 16px;gap:14px}.contact-instagram>svg:first-child{width:25px;height:25px}.contact-instagram span{display:flex;flex-direction:column;gap:4px}.contact-instagram small{font-size:8px;letter-spacing:.1em;color:#adc1df}.contact-instagram strong{font-size:16px;font-weight:550}.contact-instagram>svg:last-child{margin-left:12px}
+.footer-socials{margin-left:auto;display:flex;align-items:center;gap:24px}.footer-socials>a:not(.instagram-link){display:flex;align-items:center;gap:12px;font-size:12px;min-height:44px}
+@media(max-width:900px){.footer-top{flex-wrap:wrap;gap:24px}.footer-socials{flex-basis:100%;margin-left:0;flex-wrap:wrap;gap:14px 24px}}
+@media(max-width:680px){.contact-instagram{max-width:100%;gap:10px}.contact-instagram strong{font-size:15px}.contact-instagram>svg:last-child{margin-left:4px}}

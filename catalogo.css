@@ -109,3 +109,6 @@
 
 /* O controle de limpeza acessível já é fornecido pelo catálogo. */
 .catalog-search input::-webkit-search-cancel-button{appearance:none;-webkit-appearance:none}
+
+.catalog-footer-socials{display:flex;flex-direction:column;align-items:flex-end;gap:16px}
+@media(max-width:680px){.catalog-footer-socials{align-items:flex-start;width:100%}}
