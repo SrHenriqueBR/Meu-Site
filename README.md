@@ -79,3 +79,11 @@ A configuração existente do GitHub Actions publica o conteúdo da branch `main
 - Atualize fotos, escopo e condições comerciais conforme os serviços oferecidos.
 - A interface respeita a preferência por menos movimento e oferece navegação por teclado.
 
+
+## Monte seu PC
+
+O [configurador](https://srhenriquebr.github.io/Meu-Site/monte-seu-pc.html) permite escolher peças, uso, resolução, Hz, faixa de orçamento e preferências. Mostra incompatibilidades básicas e orientações qualitativas; prepara um resumo com os alertas no WhatsApp da Orvysion. Não calcula FPS, porcentagem de gargalo, preços ou disponibilidade.
+
+As escolhas podem ser salvas apenas no navegador, limpas e copiadas. Consulte [docs/montador.md](docs/montador.md) para fontes oficiais, regras, privacidade e limites. Mantenha o telefone em `montador-data.mjs` e nos links estáticos de `monte-seu-pc.html` ao atualizar o contato.
+
+Validação do montador: `node --test tests/montador.test.mjs`.
